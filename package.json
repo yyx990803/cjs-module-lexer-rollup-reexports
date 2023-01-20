@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build": "rollup src/index.js --no-externalLiveBindings -f cjs -e foo -o out.js"
+    "build": "rollup src/index.js --no-externalLiveBindings -f cjs -e foo -o out.js",
+    "build-working": "rollup src/index.js -f cjs -e foo -o out.js"
   },
   "dependencies": {
     "cjs-module-lexer": "^1.2.2",
